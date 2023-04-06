@@ -11,14 +11,17 @@ body {
   justify-content: center;
   align-items: center;
   max-width: fit-content;
-  padding: 20px;
+  padding: 2px 20px 20px 20px;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 35px 29px 6px 0px rgba(3, 58, 239, 0.2);
 }
 h1 {
-  color: rgb(233, 7, 40);
+  color: rgb(233, 7, 79);
+}
+.title {
+  margin-bottom: 0.5rem;
 }
 
 .input-wrapper {
@@ -51,14 +54,16 @@ label {
   padding: 15px;
   width: 100%;
   border-radius: 6px;
-  border: 1px solid gray;
+  border: 1px solid #05cdf0;
   background-color: white;
   cursor: pointer;
+  color: #05cdf0;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 /*hover button*/
 #submit:hover {
-  background-color: #858181;
+  background-color: #05cdf0;
   color: #fff;
 }
 form {

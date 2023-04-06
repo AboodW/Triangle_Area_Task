@@ -3,6 +3,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #05cdf0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 35px 29px 6px 0px rgba(3, 58, 239, 0.2);
 }
 h1 {
   color: rgb(233, 7, 40);
@@ -30,6 +43,9 @@ label {
   background-color: white;
   padding: 0 5px;
 }
+#output {
+  color: #f00544;
+}
 #submit {
   margin: 12px;
   padding: 15px;
@@ -44,4 +60,14 @@ label {
 #submit:hover {
   background-color: #858181;
   color: #fff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#outputlabel {
+  font-weight: 700;
 }

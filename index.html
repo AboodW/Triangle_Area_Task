@@ -8,31 +8,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="">
-      <h1>Triangle Area Calculator</h1>
+    <div class="container">
+      <div class="">
+        <h1>Triangle Area Calculator</h1>
+      </div>
+
+      <form>
+        <div class="input-wrapper">
+          <label for="firstSide">FirstSide</label>
+          <input type="number" id="firstSide" />
+        </div>
+        <div class="input-wrapper">
+          <label for="secondSide">SecondSide</label>
+          <input type="number" id="secondSide" />
+        </div>
+        <div class="input-wrapper">
+          <label for="thirdSide">ThirdSide</label>
+          <input type="number" id="thirdSide" />
+        </div>
+        <br />
+
+        <div class="input-wrapper">
+          <label for="output" id="outputlabel">Area</label>
+          <input type="number" id="output" />
+        </div>
+        <br />
+        <div class=""><button id="submit">Calculate</button></div>
+      </form>
     </div>
 
-    <form>
-      <div class="input-wrapper">
-        <label for="firstSide">FirstSide</label>
-        <input type="number" id="firstSide" />
-      </div>
-      <div class="input-wrapper">
-        <label for="secondSide">SecondSide</label>
-        <input type="number" id="secondSide" />
-      </div>
-      <div class="input-wrapper">
-        <label for="thirdSide">ThirdSide</label>
-        <input type="number" id="thirdSide" />
-      </div>
-      <br />
-      <button id="submit">Calculate</button>
-      <br /><br />
-      <div class="input-wrapper">
-        <label for="output">Area</label>
-        <input type="number" id="output" />
-      </div>
-    </form>
     <!-- <div id="output"></div> -->
     <script src="./script.js"></script>
   </body>

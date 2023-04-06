@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(233, 7, 40);
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 10px;
+  line-height: 6ex;
+}
+
+label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}
+#submit {
+  margin: 12px;
+  padding: 15px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+/*hover button*/
+#submit:hover {
+  background-color: #858181;
+  color: #fff;
+}

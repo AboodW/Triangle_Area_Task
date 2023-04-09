@@ -31,6 +31,8 @@ calculateButton.addEventListener("click", function () {
   const firstSideNumber = Number(firstSideInput.value);
   const secondSideNumber = Number(secondSideInput.value);
   const thirdSideNumber = Number(thirdSideInput.value);
+
+  //!Conditions
   if (firstSideNumber <= 0 || secondSideNumber <= 0 || thirdSideNumber <= 0) {
     alert(
       "Error: Invalid input. The length of a side cannot be less than or equal to zero."

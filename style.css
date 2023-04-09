@@ -54,16 +54,16 @@ label {
   padding: 15px;
   width: 93%;
   border-radius: 6px;
-  border: 1px solid #05cdf0;
+  border: 1px solid #f00544;
   background-color: white;
   cursor: pointer;
-  color: #05cdf0;
+  color: #f00544;
   font-weight: 600;
   font-size: 1.2rem;
 }
 /*hover button*/
 #submit:hover {
-  background-color: #05cdf0;
+  background-color: #f00544;
   color: #fff;
 }
 form {

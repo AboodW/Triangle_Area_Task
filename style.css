@@ -47,6 +47,7 @@ label {
   padding: 0 5px;
 }
 #output {
+  text-align: center;
   color: #f00544;
 }
 #submit {

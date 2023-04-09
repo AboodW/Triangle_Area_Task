@@ -4,7 +4,11 @@ const thirdSideInput = document.getElementById("thirdSide");
 const output = document.getElementById("output");
 const calculateButton = document.getElementById("submit");
 
-function calculateArea(firstSideNumber, secondSideNumber, thirdSideNumber) {
+function calculateTriangleArea(
+  firstSideNumber,
+  secondSideNumber,
+  thirdSideNumber
+) {
   const semiPerimeter = calculatePerimeter(
     firstSideNumber,
     secondSideNumber,
@@ -27,7 +31,7 @@ function calculatePerimeter(
   return (firstSideNumber + secondSideNumber + thirdSideNumber) / 2;
 }
 
-calculateButton.addEventListener("click", function () {
+calculateButton.addEventListener("click", () => {
   const firstSideNumber = Number(firstSideInput.value);
   const secondSideNumber = Number(secondSideInput.value);
   const thirdSideNumber = Number(thirdSideInput.value);
@@ -53,6 +57,6 @@ calculateButton.addEventListener("click", function () {
       "Error: Invalid input. The sum of the lengths of any two sides must be greater than the length of the third side."
     );
   } else {
-    calculateArea(firstSideNumber, secondSideNumber, thirdSideNumber);
+    calculateTriangleArea(firstSideNumber, secondSideNumber, thirdSideNumber);
   }
 });
